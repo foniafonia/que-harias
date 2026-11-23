@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>¿Qué harías? · Habilidades sociales para la ESO · ColmenIA</title>
+<meta name="description" content="48 situaciones reales de la ESO para trabajar habilidades sociales: conversar, indirectas, emociones, conflictos, decir que no, pedir ayuda, redes y amistad. Corrige y explica. Para tutoría, la pizarra digital y el móvil.">
+<meta property="og:title" content="¿Qué harías? · Habilidades sociales para la ESO">
+<meta property="og:description" content="Situaciones reales de instituto con tres respuestas: el alumnado elige y la app explica por qué. Modo clase para la pizarra, fichas y adaptaciones. Herramienta de la comunidad ColmenIA.">
+<meta property="og:image" content="https://foniafonia.github.io/que-harias/img/portada.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://foniafonia.github.io/que-harias/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1B2550">
+<link rel="icon" href="img/colmenia-logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--noche:#1B2550;--noche2:#2B3A7A;--coral:#FF7A59;--oro:#F2B33D;--oro2:#FFF1CC;--crema:#FFF8F0;--tinta:#161B33;--suave:#545C7A;--linea:#E6DED2;--bien:#2A9457;--bien2:#DDF4E5;--medio:#D9822B;--medio2:#FFEBD2;--mal:#C94440;--mal2:#FBE0DF;--sombra:0 4px 14px rgba(27,37,80,.12);--fs:18px}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--crema);color:var(--tinta);font:var(--fs)/1.5 "Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+body.atk,body.atk button{font-family:"Atkinson Hyperlegible",system-ui,sans-serif;letter-spacing:.02em;word-spacing:.08em;line-height:1.65}
+body.grande{--fs:21px}body.muygrande{--fs:26px}
+body.contraste{--crema:#fff;--tinta:#000;--suave:#111;--linea:#000;--noche:#000}
+body.contraste .caja,body.contraste .sit,body.contraste .op{border-width:3px}
+body.mayus .sit .txt,body.mayus .op .ot{text-transform:uppercase}
+img{max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--noche2)}
+.oculto{display:none!important}
+.envol{max-width:1040px;margin:0 auto;padding:0 16px}
+.cab{background:var(--noche);color:#fff;position:sticky;top:0;z-index:30;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.cab .envol{display:flex;align-items:center;gap:10px;min-height:62px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;margin-right:auto;background:none;border:0;cursor:pointer;padding:0;text-align:left}
+.marca img{width:40px;height:40px;border-radius:10px;background:#fff}
+.marca b{font-size:21px;font-weight:900}.marca small{display:block;font-size:13px;color:#C9D2F5;font-weight:700}
+nav.pest{display:flex;gap:6px;flex-wrap:wrap}
+nav.pest button{background:transparent;border:2px solid rgba(255,255,255,.25);color:#fff;border-radius:999px;padding:6px 13px;font-weight:800;cursor:pointer;min-height:44px;font-size:16px}
+nav.pest button[aria-pressed=true]{background:var(--oro);border-color:var(--oro);color:var(--noche)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:14px;padding:11px 18px;font-weight:900;cursor:pointer;text-decoration:none;min-height:48px;font-size:17px;background:var(--noche2);color:#fff}
+.btn.coral{background:var(--coral);color:#fff}.btn.oro{background:var(--oro);color:var(--noche)}.btn.sec{background:#fff;color:var(--noche);border:2px solid var(--linea)}.btn.peq{padding:7px 12px;min-height:40px;font-size:15px}
+.btn:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible{outline:4px solid var(--oro);outline-offset:2px}
+.fila{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.caja{background:#fff;border:2px solid var(--linea);border-radius:20px;padding:16px;box-shadow:var(--sombra)}
+h1{font-size:32px;line-height:1.1;margin:0 0 8px;font-weight:900;color:var(--noche)}
+h2{font-size:24px;margin:0 0 8px;color:var(--noche)}
+.lead{color:var(--suave);margin:0 0 12px}
+/* portada */
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:16px;margin:18px 0 10px}
+.puente{background:linear-gradient(135deg,#1B2550,#3B4C9B);color:#fff;border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.puente b{font-size:19px}.puente p{margin:0;color:#DDE3FA;font-size:16px}
+.puente .logos{display:flex;gap:8px;align-items:center}.puente .logos img{height:38px;border-radius:8px;background:#fff;padding:2px}
+.bloques{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:14px 0 24px}
+.bloque{display:flex;flex-direction:column;gap:6px;text-align:left;background:#fff;border:2px solid var(--linea);border-left:8px solid var(--c);border-radius:18px;padding:14px;cursor:pointer;box-shadow:var(--sombra);min-height:150px}
+.bloque:hover{transform:translateY(-2px)}
+.bloque .bt{display:flex;align-items:center;gap:10px}.bloque .bt img{width:46px;height:46px}
+.bloque b{font-size:19px;color:var(--noche)}.bloque p{margin:0;font-size:15px;color:var(--suave)}
+.bloque .meta{margin-top:auto;font-size:14px;font-weight:800;color:var(--c)}
+.mezcla{border-left-color:var(--coral);background:linear-gradient(135deg,#fff,#FFF0EA)}
+/* situación */
+.sit{background:#fff;border:2px solid var(--linea);border-radius:22px;padding:18px;box-shadow:var(--sombra);margin:16px 0}
+.sit .top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.etq{display:inline-flex;align-items:center;gap:6px;background:var(--c,#eee);color:#fff;border-radius:999px;padding:4px 12px;font-weight:900;font-size:14px}
+.prog{font-weight:800;color:var(--suave);font-size:15px}
+.barra{height:8px;background:#EEE6DA;border-radius:9px;overflow:hidden;margin-bottom:12px}.barra i{display:block;height:100%;background:var(--coral);width:0;transition:width .3s}
+.sit .cuerpo{display:flex;gap:14px;align-items:flex-start}
+.emo{flex:0 0 auto;text-align:center;font-size:12px;font-weight:800;color:var(--suave)}
+.emo img{display:block;width:84px;height:84px;border-radius:16px;background:var(--oro2);padding:4px;margin-bottom:2px}
+body.sinpictos .emo{display:none}
+.sit h3{margin:0 0 6px;font-size:23px;color:var(--noche)}
+.sit .txt{font-size:1.08em;margin:0 0 10px}
+.sit .preg{font-weight:900;font-size:1.1em;color:var(--noche2);margin:0}
+.ops{display:grid;gap:10px;margin-top:14px}
+.op{display:flex;gap:12px;align-items:flex-start;text-align:left;background:#fff;border:2px solid var(--linea);border-radius:16px;padding:12px 14px;cursor:pointer;min-height:56px;width:100%}
+.op:hover:not([disabled]){border-color:var(--noche2)}
+.op .letra{flex:0 0 auto;width:38px;height:38px;border-radius:50%;background:var(--noche);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center}
+.op .ot{flex:1}
+.op .exp{display:block;margin-top:6px;font-size:.92em;color:var(--suave)}
+.op[disabled]{cursor:default}
+.op.n2.vista{background:var(--bien2);border-color:var(--bien)}.op.n1.vista{background:var(--medio2);border-color:var(--medio)}.op.n0.vista{background:var(--mal2);border-color:var(--mal)}
+.op.elegida{box-shadow:0 0 0 4px var(--oro)}
+.nota{display:inline-block;border-radius:999px;padding:1px 10px;font-size:13px;font-weight:900;color:#fff;margin-right:6px}
+.nota.n2{background:var(--bien)}.nota.n1{background:var(--medio)}.nota.n0{background:var(--mal)}
+.estilo{display:inline-block;border-radius:999px;padding:1px 9px;font-size:12px;font-weight:900;border:2px solid currentColor;margin-right:6px}
+.estilo.a{color:var(--bien)}.estilo.p{color:#5F6B8A}.estilo.g{color:var(--mal)}
+.resp{margin-top:12px;border-radius:16px;padding:12px 14px;font-weight:700}
+.resp.n2{background:var(--bien2)}.resp.n1{background:var(--medio2)}.resp.n0{background:var(--mal2)}
+.debate{margin-top:12px;background:var(--oro2);border:2px dashed var(--oro);border-radius:16px;padding:12px 14px}
+.debate b{color:var(--noche)}
+.acciones{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;justify-content:space-between}
+.verops{margin-top:14px}
+/* fin */
+.fin{text-align:center}
+.fin .gran{font-size:54px;font-weight:900;color:var(--noche);line-height:1}
+.estilos{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.estilos div{border-radius:16px;padding:12px;font-weight:800}
+.estilos b{display:block;font-size:30px}
+.reto{background:linear-gradient(135deg,#FFF1CC,#FFE3D6);border-radius:18px;padding:14px;margin:12px 0;text-align:left}
+.cand{background:var(--oro2);border:2px solid var(--oro);border-radius:16px;padding:12px 14px;margin:12px 0;text-align:left}
+/* técnicas */
+.tecs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin:14px 0 24px}
+.tec{background:#fff;border:2px solid var(--linea);border-radius:18px;padding:14px;box-shadow:var(--sombra)}
+.tec h3{margin:0 0 6px;font-size:19px;color:var(--noche)}.tec p{margin:0 0 8px;font-size:16px}
+.tec .ej{background:var(--crema);border-left:4px solid var(--coral);padding:6px 10px;border-radius:8px;font-style:italic;font-size:15px}
+.guia ol li,.guia ul li{margin-bottom:6px}
+/* modales */
+.modal{position:fixed;inset:0;background:rgba(15,20,45,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:60}
+.modal .dentro{background:#fff;border-radius:22px;max-width:560px;width:100%;max-height:92vh;overflow:auto;padding:20px;position:relative}
+.cierra{position:absolute;top:10px;right:10px;background:#eee;border:0;border-radius:50%;width:40px;height:40px;font-size:20px;cursor:pointer}
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.pasos div{text-align:center;font-size:14px;font-weight:800;color:var(--suave)}.pasos img{width:56px;height:56px;display:block;margin:0 auto 4px}
+input#clave{width:100%;border:2px solid var(--linea);border-radius:14px;padding:12px;font-size:20px;text-transform:uppercase;letter-spacing:2px}
+.msg{min-height:24px;font-weight:800;color:var(--mal);margin-top:6px}
+.perfiles{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
+.perfiles button{background:var(--oro2);border:2px solid #F0D9A0;border-radius:999px;padding:6px 12px;cursor:pointer;font-weight:800;min-height:40px}
+.interr{display:flex;align-items:center;gap:10px;cursor:pointer;font-weight:700;padding:6px 0}
+.interr input{width:24px;height:24px;accent-color:var(--noche2)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{background:#fff;border:2px solid var(--linea);border-radius:999px;padding:6px 12px;cursor:pointer;font-weight:700;min-height:40px}
+.chip[aria-pressed=true]{background:var(--oro);border-color:var(--oro)}
+textarea{width:100%;min-height:90px;border:2px solid var(--linea);border-radius:14px;padding:10px}
+input[type=text]{border:2px solid var(--linea);border-radius:12px;padding:10px;width:100%}
+/* carátula */
+#caratula .dentro{max-width:620px;text-align:center}
+.carbot{display:grid;gap:10px;margin:14px 0}
+.carbot button{display:flex;align-items:center;gap:14px;text-align:left;background:#fff;border:3px solid var(--linea);border-radius:18px;padding:12px 14px;cursor:pointer;font-weight:900;font-size:19px;color:var(--noche)}
+.carbot button img{width:54px;height:54px}.carbot button small{display:block;font-weight:700;font-size:14px;color:var(--suave)}
+.carbot button.prim{border-color:var(--coral);background:#FFF2EC}
+/* abeja */
+#abeja{position:fixed;right:14px;bottom:14px;z-index:40;background:var(--oro);color:var(--noche);border:0;border-radius:999px;padding:10px 16px;font-weight:900;box-shadow:var(--sombra);cursor:pointer;min-height:48px}
+.toast{position:fixed;left:50%;bottom:80px;transform:translateX(-50%);background:var(--noche);color:#fff;border-radius:14px;padding:10px 16px;font-weight:800;z-index:70}
+.pie{color:var(--suave);font-size:14px;text-align:center;padding:24px 16px 80px}
+/* pizarra / modo clase */
+body.pizarra{--fs:26px}
+body.pizarra .cab nav,body.pizarra #abeja{display:none}
+body.pizarra .envol{max-width:1400px}
+body.pizarra .sit h3{font-size:40px}body.pizarra .op .letra{width:56px;height:56px;font-size:28px}
+.voto{display:none;margin-top:12px;font-weight:900;color:var(--noche2)}
+body.pizarra .voto{display:block}
+.crono{font-variant-numeric:tabular-nums}
+/* ficha imprimible */
+#ficha{display:none}
+@media print{
+ body>*:not(#ficha){display:none!important}
+ #ficha{display:block;font:13pt/1.45 "Nunito",sans-serif;color:#000}
+ .fh{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #000;padding-bottom:6px;margin-bottom:10px}
+ .fh img{height:36px}
+ .fs{break-inside:avoid;border:1.5px solid #555;border-radius:10px;padding:8px 12px;margin-bottom:10px}
+ .fs h4{margin:0 0 4px}
+ .lin{border-bottom:1px dotted #777;height:24px}
+ .fpie{font-size:9pt;color:#444;margin-top:10px;border-top:1px solid #999;padding-top:4px}
+ .sol{break-before:page}
+}
+@media (max-width:760px){
+ .hero{grid-template-columns:1fr}
+ h1{font-size:27px}
+ .sit .cuerpo{flex-direction:column}
+ .emo{display:flex;align-items:center;gap:8px}.emo img{width:56px;height:56px}
+ .estilos{grid-template-columns:1fr}
+ nav.pest button{padding:5px 10px;font-size:15px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="cab"><div class="envol">
+  <button class="marca" type="button" data-ir="inicio"><img src="img/colmenia-logo.webp" alt=""><span><b>¿Qué harías?</b><small>Habilidades sociales · ESO</small></span></button>
+  <nav class="pest" aria-label="Secciones">
+    <button type="button" data-ir="inicio" aria-pressed="true">🎯 Situaciones</button>
+    <button type="button" data-ir="tecnicas" aria-pressed="false">🧰 Técnicas</button>
+    <button type="button" data-ir="guia" aria-pressed="false">👩‍🏫 En clase</button>
+    <button type="button" id="bAdapta" aria-pressed="false">♿ Adaptar</button>
+    <button type="button" id="bPizarra" aria-pressed="false">🖥️ Modo clase</button>
+  </nav>
+</div></header>
+
+<main class="envol">
+<!-- INICIO -->
+<section id="v-inicio">
+  <div class="hero">
+    <div class="caja">
+      <h1>¿Qué harías tú?</h1>
+      <p class="lead">48 situaciones reales de instituto. Lees, eliges una de tres respuestas y la app te explica por qué funciona o no. Para tutoría, la pizarra digital o el móvil de cada alumno.</p>
+      <div class="fila"><button class="btn coral" type="button" data-juega="conversa">▶ Probar una situación</button><button class="btn sec" type="button" data-ir="guia">Cómo usarlo en clase</button></div>
+    </div>
+    <div class="puente">
+      <div class="logos"><img src="img/colmenia-logo.webp" alt="ColmenIA"><img src="img/logo-fonia.jpg" alt="Gabinete Fönia"></div>
+      <b>Lo ha preparado ColmenIA</b>
+      <p>Nuestra comunidad de docentes, PT, AL y logopedas. Lo pidió una docente y lo hicimos. Dentro tienes la llave 🔑 para abrirlo entero y puedes pedir lo que te haga falta.</p>
+      <a class="btn oro" data-sk="portada" target="_blank" rel="noopener">Entrar en ColmenIA</a>
+    </div>
+  </div>
+  <h2>Elige un bloque</h2>
+  <div class="bloques" id="bloques"></div>
+</section>
+
+<!-- JUEGO -->
+<section id="v-juego" class="oculto"><div id="juego"></div></section>
+
+<!-- TÉCNICAS -->
+<section id="v-tecnicas" class="oculto">
+  <div class="caja" style="margin-top:18px"><h1>Técnicas para el día a día</h1><p class="lead">Las herramientas que aparecen en las explicaciones. Se pueden imprimir, proyectar o practicar en parejas.</p></div>
+  <div class="tecs" id="tecs"></div>
+</section>
+
+<!-- GUÍA -->
+<section id="v-guia" class="oculto">
+  <div class="caja guia" style="margin:18px 0">
+    <h1>Cómo usarlo en clase</h1>
+    <p class="lead">Pensado para tutoría (1.º a 4.º de ESO), PT y AL, orientación y grupos de habilidades sociales.</p>
+    <h2>Una sesión de 50 minutos</h2>
+    <ol>
+      <li><b>Arranque (5 min).</b> Elegid un bloque y leed la técnica que le corresponde en «Técnicas».</li>
+      <li><b>Modo clase (25 min).</b> Proyectad una situación. Dad 30 segundos para pensar. Cada uno vota levantando 1, 2 o 3 dedos (A, B o C). Tocad la opción más votada y leed la explicación.</li>
+      <li><b>Debate (10 min).</b> Cada situación trae una pregunta para hablar en grupo.</li>
+      <li><b>Ensayo (10 min).</b> Por parejas, representad la respuesta asertiva con vuestras palabras.</li>
+      <li><b>Para casa.</b> El reto de la semana que sale al terminar el bloque, o la ficha impresa.</li>
+    </ol>
+    <h2>Las tres formas de responder</h2>
+    <p>Cada respuesta lleva una etiqueta: <span class="estilo a">asertiva</span> <span class="estilo p">pasiva</span> <span class="estilo g">agresiva</span>. Al terminar, la app enseña cuántas respuestas de cada tipo ha elegido el alumno. Sirve para hablar de ello, no para poner nota.</p>
+    <h2>Adaptaciones</h2>
+    <ul>
+      <li><b>TEA:</b> pictos de emoción, un paso cada vez y explicaciones siempre visibles. El bloque «Indirectas e ironías» trabaja el lenguaje no literal.</li>
+      <li><b>TDAH:</b> un paso cada vez y letra grande.</li>
+      <li><b>TDL y lectura inicial:</b> voz, pictos y letra grande.</li>
+      <li><b>Dislexia:</b> fuente legible, más espacio y voz.</li>
+      <li><b>Baja visión:</b> letra muy grande y alto contraste.</li>
+    </ul>
+    <h2>Un aviso</h2>
+    <p>Algunas situaciones tocan acoso, ciberacoso, presión de grupo o tristeza mantenida. Si alguien se ve reflejado, conviene hablarlo a solas y derivar a orientación. En España, el <b>024</b> atiende a quien está muy mal, a cualquier hora.</p>
+    <div class="fila" style="margin-top:12px"><button class="btn coral" type="button" data-juega="conversa">▶ Probar</button><button class="btn sec" type="button" id="bFichas">🖨️ Fichas para imprimir</button></div>
+  </div>
+</section>
+</main>
+
+<p class="pie">¿Qué harías? · ColmenIA, comunidad de educación e IA de Gabinete Fönia · <a data-sk="pie" target="_blank" rel="noopener">skool.com/logopedia-7339</a><br>Situaciones inventadas para el aula. Sin datos del alumnado: nada de lo que se responde sale del aparato.</p>
+
+<button id="abeja" type="button">🐝 Pide una mejora</button>
+
+<!-- CARÁTULA -->
+<div class="modal oculto" id="caratula" role="dialog" aria-modal="true" aria-label="Bienvenida"><div class="dentro">
+  <div class="fila" style="justify-content:center"><img src="img/colmenia-logo.webp" alt="ColmenIA" style="height:52px;border-radius:10px"><img src="img/logo-fonia.jpg" alt="Gabinete Fönia" style="height:52px;border-radius:10px"></div>
+  <h1 style="margin-top:10px">¿Qué harías?</h1>
+  <p class="lead">Habilidades sociales para la ESO, con situaciones de verdad.</p>
+  <div class="carbot">
+    <button type="button" class="prim" data-car="juega"><img src="img/pictos/pensar.png" alt=""><span>Probar una situación<small>Lees, eliges y te explica por qué</small></span></button>
+    <button type="button" data-car="bloques"><img src="img/pictos/clase.png" alt=""><span>Ver los 8 bloques<small>Emociones, conflictos, redes, amistad…</small></span></button>
+    <button type="button" data-car="clave"><img src="img/pictos/llave.webp" alt=""><span>Tengo la llave<small>Ábrelo entero</small></span></button>
+  </div>
+</div></div>
+
+<!-- CANDADO -->
+<div class="modal oculto" id="mCandado" role="dialog" aria-modal="true" aria-labelledby="candTit2"><div class="dentro">
+  <button class="cierra" type="button" id="candCierra" aria-label="Cerrar">✕</button>
+  <h2 id="candTit2">🔑 <span id="candTit"></span>: con la llave</h2>
+  <div class="pasos">
+    <div><img src="img/pictos/clase.png" alt="">1. Entra en ColmenIA</div>
+    <div><img src="img/pictos/papel.webp" alt="">2. Cursos › Material a medida › ¿Qué harías?</div>
+    <div><img src="img/pictos/llave.webp" alt="">3. Escribe aquí la llave</div>
+  </div>
+  <a class="btn oro" data-sk="candado" target="_blank" rel="noopener" style="width:100%">Entrar en ColmenIA</a>
+  <p style="margin:14px 0 6px;font-weight:800">¿Ya la tienes?</p>
+  <div class="fila"><input id="clave" type="text" autocomplete="off" aria-label="Llave" placeholder="LLAVE" style="flex:1"><button class="btn coral" type="button" id="bClave">Abrir</button></div>
+  <div class="msg" id="claveMsg" role="status"></div>
+  <p style="font-size:14px;color:var(--suave);margin:8px 0 0">Con la llave: las 48 situaciones, el reto mezclado, el modo clase, las fichas y las adaptaciones.</p>
+</div></div>
+
+<!-- ADAPTAR -->
+<div class="modal oculto" id="mAdapta" role="dialog" aria-modal="true" aria-label="Adaptaciones"><div class="dentro">
+  <button class="cierra" type="button" id="adCierra" aria-label="Cerrar">✕</button>
+  <h2>♿ Adaptar a cada alumno</h2>
+  <p style="margin:0;font-weight:800">Empieza por un perfil:</p>
+  <div class="perfiles" id="perfiles">
+    <button type="button" data-p="tea">TEA</button><button type="button" data-p="tdah">TDAH</button><button type="button" data-p="tdl">TDL</button><button type="button" data-p="dislexia">Dislexia</button><button type="button" data-p="vision">Baja visión</button><button type="button" data-p="inicial">Lectura inicial</button><button type="button" data-p="nada">Quitar todo</button>
+  </div>
+  <label class="interr"><input type="checkbox" data-a="pictos"> Pictos de emoción</label>
+  <label class="interr"><input type="checkbox" data-a="unPaso"> Un paso cada vez (las opciones salen al pulsar)</label>
+  <label class="interr"><input type="checkbox" data-a="expl"> Ver todas las explicaciones al contestar</label>
+  <label class="interr"><input type="checkbox" data-a="voz"> Leer en voz alta</label>
+  <label class="interr"><input type="checkbox" data-a="grande"> Letra grande</label>
+  <label class="interr"><input type="checkbox" data-a="muygrande"> Letra muy grande</label>
+  <label class="interr"><input type="checkbox" data-a="atk"> Fuente más legible</label>
+  <label class="interr"><input type="checkbox" data-a="mayus"> Todo en mayúsculas</label>
+  <label class="interr"><input type="checkbox" data-a="contraste"> Alto contraste</label>
+  <button class="btn" type="button" id="adOk" style="width:100%;margin-top:10px">Listo</button>
+</div></div>
+
+<!-- FICHAS -->
+<div class="modal oculto" id="mFichas" role="dialog" aria-modal="true" aria-label="Fichas"><div class="dentro">
+  <button class="cierra" type="button" id="fiCierra" aria-label="Cerrar">✕</button>
+  <h2>🖨️ Fichas para imprimir</h2>
+  <p class="lead">Elige el bloque. Cada ficha lleva las situaciones, las tres opciones y espacio para escribir «¿Qué harías tú?».</p>
+  <div class="chips" id="fiBloques"></div>
+  <label class="interr"><input type="checkbox" id="fiSol"> Añadir hoja de soluciones para el docente</label>
+  <label class="interr"><input type="checkbox" id="fiTec" checked> Añadir las técnicas</label>
+</div></div>
+
+<!-- ABEJA -->
+<div class="modal oculto" id="mAbeja" role="dialog" aria-modal="true" aria-label="Pide una mejora"><div class="dentro">
+  <button class="cierra" type="button" id="mejCierra" aria-label="Cerrar">✕</button>
+  <h2>🐝 ¿Qué le añadimos?</h2>
+  <p class="lead">Lo más pedido es lo siguiente que hacemos.</p>
+  <div class="chips" id="mejChips"></div>
+  <textarea id="mejTxt" placeholder="Una situación que pasa en tu clase, un tema que falta, algo que mejorar… (sin datos del alumnado)"></textarea>
+  <input type="text" id="mejFirma" placeholder="Tu nombre o centro (si quieres)" style="margin-top:8px">
+  <button class="btn coral" type="button" id="mejEnvia" style="width:100%;margin-top:10px">Enviar</button>
+  <div class="msg" id="mejOk" role="status" style="color:var(--bien)"></div>
+</div></div>
+
+<div id="ficha"></div>
+<script src="datos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
